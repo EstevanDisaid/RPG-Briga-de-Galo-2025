@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Luckiest+Guy&display=swap');
+
+:root {
+    --Azul-Real-tradicional: #03256cff;
+    --Azul-persa: #2541b2ff;
+    --Azul-verde: #1768acff;
+    --AeroWillis: #06bee1ff;
+    --Branco: #ffffffff;
+    --Preto: #000000;
+
+    --fonte-titulo: "Luckiest Guy", cursive;
+    --fonte-texto:  "Carter One", system-ui;
+
+}
