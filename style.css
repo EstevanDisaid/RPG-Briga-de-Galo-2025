@@ -18,3 +18,24 @@
     --fonte-texto:  "Carter One", system-ui;
 
 }
+
+body{
+    background-color: var(--Azul-persa);
+    color: var(--Branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--AeroWillis) ;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+}
