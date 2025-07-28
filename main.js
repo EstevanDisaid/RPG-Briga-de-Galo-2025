@@ -70,8 +70,13 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
+    if(atual >= perguntas.length){
+        mostreResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enunciado
+    caixaAlternativas.textContent= ""
     mostraAlternativas()
 }
 
@@ -85,8 +90,15 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada(opcaoSelecionada){
+    const afirmacao = opcaoSelecionada.afirmacao
+    historiaFinal += afirmacao + " "
     atual++
     mostraPergunta();
+}
+function mostreResultado(){
+    caixaPerguntas.textContent = "Tudo se iniciou em 1980..."
+    textoResultado.textContent =  historiaFinal;
+    caixaAlternativas.textContent = "";
 }
 
 
