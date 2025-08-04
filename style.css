@@ -13,6 +13,9 @@
     --AeroWillis: #06bee1ff;
     --Branco: #ffffffff;
     --Preto: #000000;
+    --Vermelho: #ff0000;
+    --Amarelo: #fffb00;
+    --Laranja: #ff7300;
 
     --fonte-titulo: "Luckiest Guy", cursive;
     --fonte-texto:  "Carter One", system-ui;
@@ -20,7 +23,7 @@
 }
 
 body{
-    background-color: var(--Azul-persa);
+    background-color: var(--Preto);
     color: var(--Branco);
     display: flex;
     align-items: center;
@@ -30,12 +33,41 @@ body{
 }
 
 .caixa-principal{
-    background-color: var(--AeroWillis) ;
+    background-color: var(--Vermelho) ;
     width: 90%;
     text-align: center;
     padding: 20px;
+    border-radius: 100%;
+    border: solid 2px var(--Preto);
+
 }
 
 .titulo{
     font-family: var(--fonte-titulo);
+    color: var(--Branco);
+    transition: 0.3s;
+    
 }
+
+button{
+background-color: var(--Laranja) ;
+color: var(--Branco);
+margin-left: 25px;
+margin-right: 25px;
+width: 120px;
+height: 80px;
+border: solid 2px var(--Preto);
+border-radius: 100%;
+padding: 10px auto;
+transition: 0.3s;
+}
+
+button:hover{
+    background-color: var(--Azul-persa);
+    font-size: large;
+}
+
+.titulo:hover{
+    font-size: 38px;
+}
+    

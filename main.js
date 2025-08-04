@@ -6,21 +6,21 @@ const textoResultado = document.querySelector('.texto-resultado');
 const perguntas = [
 
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você tem 10 anos e decide entrar pra o clube de briga de galo da sua cidade, porém é obrigado a fazer uma importante escolha de galos.",
         alternativas: [
             {
-                texto: "alternativa 01",
-                afirmacao: "resultado 01"
+                texto: "Galo forte e medio de defesa",
+                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior ataque e seguiu treinando para aprimorar suas skills de ataque "
             },
 
             {
-                texto: "alternativa 02",
-                afirmacao: "resultado 02"
+                texto: "Galo resitente e medio de força ",
+                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior defesa e seguiu treinando para aprimorar suas skills de defesa"
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você",
         alternativas: [
             {
                 texto: "alternativa 03",
@@ -70,13 +70,13 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta() {
-    if(atual >= perguntas.length){
+    if (atual >= perguntas.length) {
         mostreResultado();
         return;
     }
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enunciado
-    caixaAlternativas.textContent= ""
+    caixaAlternativas.textContent = ""
     mostraAlternativas()
 }
 
@@ -89,15 +89,15 @@ function mostraAlternativas() {
     }
 }
 
-function respostaSelecionada(opcaoSelecionada){
+function respostaSelecionada(opcaoSelecionada) {
     const afirmacao = opcaoSelecionada.afirmacao
     historiaFinal += afirmacao + " "
     atual++
     mostraPergunta();
 }
-function mostreResultado(){
+function mostreResultado() {
     caixaPerguntas.textContent = "Tudo se iniciou em 1980..."
-    textoResultado.textContent =  historiaFinal;
+    textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 
