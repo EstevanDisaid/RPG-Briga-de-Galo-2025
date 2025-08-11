@@ -54,7 +54,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Não arriscar e enrolar a luta.",
-                afirmacao: "Seu Galómon estava indo enrolando bem, e estava quase ganhando, porém demorou tanto que ele notou a grande plateia, ele ficou com vergonha e acabou abaixando a sua guarda e levou um ataque crítico e perdeu a última batalha. Vocês voltaram para casa com um prêmio bem mais ou menos e você teve que abandonar seu sonho para trabalhar em um Mercado. "
+                afirmacao: "Seu Galómon estava desenrolando, e estava quase ganhando, porém demorou tanto que ele notou a grande plateia, ele ficou com vergonha e acabou abaixando a sua guarda e levou um ataque crítico e perdeu a última batalha. Vocês voltaram para casa com um prêmio bem mais ou menos e você teve que abandonar seu sonho para trabalhar em um Mercado. "
             },
 
             {
