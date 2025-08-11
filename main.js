@@ -44,22 +44,22 @@ const perguntas = [
 
             {
                 texto: "Sair com os caras gente boa",
-                afirmacao: "Naquela noite, vocês aproveitaram muito e defenderam um grupo de senhoras de delinquentes com seus Galomóns"
+                afirmacao: "Naquela noite, vocês aproveitaram muito e defenderam um grupo de senhoras de delinquentes com seus Galómons, devido isso você ganhou dinheiro e ficou com uma boa fama."
             }
         ]
     },
 
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Estava acontecendo o campeonato mundial de Galómons e você foi praticipar das disputas. Você chegou na última batalha do campeonato porém estava muito acirrado e você tem que escolher entre arriscar tudo em um ataque muito forte porém com baixa precisão, ou escolher manter a luta enrolada até ao fim para tentar ganhar. ",
         alternativas: [
             {
-                texto: "alternativa 07",
-                afirmacao: "resultado 07"
+                texto: " Não arriscar e enrolar a luta.",
+                afirmacao: "Seu Galómon estava indo enrolando bem, e estava quase ganhando, porém demorou tanto que ele notou a grande plateia, ele ficou com vergonha e acabou abaixando a sua guarda e levou um ataque crítico e perdeu a última batalha. Vocês voltaram para casa com um prêmio bem mais ou menos e você teve que abandonar seu sonho para trabalhar em um Mercado. "
             },
 
             {
-                texto: "alternativa 08",
-                afirmacao: "resultado 08"
+                texto: "Arriscar tudo no ataque forte.",
+                afirmacao: "O ataque foi crítico e Você e seu Galómon ganharam o campeonato mundial e se tornaram MESTRE GALÓMON. Você ganhou muito dinheiro e fama e pode finalmente abrir sua acadêmia de treinamento de Galómons para treinar futuros mestres Galómon, os lucros tirou sua família da pobreza."
             }
         ]
     }
