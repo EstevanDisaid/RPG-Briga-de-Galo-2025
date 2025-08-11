@@ -9,42 +9,42 @@ const perguntas = [
         enunciado: "Você tem 10 anos e decide entrar pra o clube de briga de galo da sua cidade, porém é obrigado a fazer uma importante escolha de galos.",
         alternativas: [
             {
-                texto: "Galo forte e medio de defesa",
-                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior ataque e seguiu treinando para aprimorar suas skills de ataque "
+                texto: "Galo forte e medio de defesa.",
+                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior ataque e seguiu treinando para aprimorar suas skills de ataque."
             },
 
             {
-                texto: "Galo resitente e medio de força ",
-                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior defesa e seguiu treinando para aprimorar suas skills de defesa"
+                texto: "Galo resitente e medio de força.",
+                afirmacao: "Você sempre gostou de briga de galo e aos 10 anos entrou para o clube de briga de galo e escolheu o Galo com maior defesa e seguiu treinando para aprimorar suas skills de defesa."
             }
         ]
     },
     {
-        enunciado: "Você",
+        enunciado: "Você foi disputar seu primeiro campeonato regional numa cidade proxima, porém você não tinha dinheiro para a passagem e teve que decidir entre pagar a conta de luz ou sua passagem.",
         alternativas: [
             {
-                texto: "alternativa 03",
-                afirmacao: "resultado 03"
+                texto: "Pagar a passagem.",
+                afirmacao: "Você decidiu que iria pagar a passagem e investir no seu sonho, você acabou ganhando o campeonato amador e conseguiu mais dinhero para poder invetir em seu sonho."
             },
 
             {
-                texto: "alternativa 04",
-                afirmacao: "resultado 04"
+                texto: "Pagar a conta de luz.",
+                afirmacao: "Você decidiu pagar a conta de luz devido isso não pode participar do campeonato, e acabou perdendo algumas oportunidades. "
             }
         ]
     },
 
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Ao longo de sua jornada você, conheceu diversas pessoas boas e pessoas de mau caráter. Certo dia você foi chamado para sair com uns caras barra pesada, mas também havia combinado de sair com caras gente boa, e acabou tendo que escolher apenas um grupo para sair. ",
         alternativas: [
             {
-                texto: "alternativa 05",
-                afirmacao: "resultado 05"
+                texto: "Sair com os caras barra pesada.",
+                afirmacao: "Naquela noite, vocês curtiram bastante porém, cometeram alguns delitos, devido isso você ficou com má fama."
             },
 
             {
-                texto: "alternativa 06",
-                afirmacao: "resultado 06"
+                texto: "Sair com os caras gente boa",
+                afirmacao: "Naquela noite, vocês aproveitaram muito e defenderam um grupo de senhoras de delinquentes com seus Galomóns"
             }
         ]
     },
